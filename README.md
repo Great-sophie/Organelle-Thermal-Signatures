@@ -18,6 +18,14 @@ The manuscript uses the Er³⁺ emission pair near **525 and 545 nm**, fixed-cel
 
 **[Browse the complete experimental figure gallery →](results/README.md)**
 
+## Spin-TIRF microscopy system
+
+![Custom Spin-TIRF microscopy optical schematic](figures/spin_tirf_optical_layout.jpg)
+
+The original experimental setup combines **488, 561, 642 and 980 nm laser excitation**, galvanometer-driven **spinning TIRF** illumination through a **100×/1.45 NA objective**, and **525/545 nm emission-band imaging** using an **sCMOS camera**. The two-channel UCNP emission ratio supports calibration-dependent subcellular thermometry. The schematic documents the optical system; it does not independently validate temperatures or make the legacy analysis scripts into acquisition-control software.
+
+**[Optical layout, acquisition principles and documented settings →](docs/spin_tirf_system_setup.md)**
+
 ## Experimental-to-computational workflow
 
 ```text
